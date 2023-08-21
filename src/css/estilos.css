@@ -1,0 +1,183 @@
+body {
+    background-color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.menu .logo {
+    width: 68px;
+    margin: 20px;
+}
+
+.menu-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .login {
+    color: #fff;
+    margin: 15px;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.menu .login:hover {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.menu ul a {
+    color: #fff;
+    margin: 15px;
+    transition: 0.8s;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    font-size: 25px;
+    color: #8B0000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 5px;
+    height: calc(100vh - 255px);
+    align-items: center;
+}
+
+.container .conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: calc(100vh - 255px);
+    justify-content: center;
+    max-width: 550px;
+}
+
+.container .imagem-apex{
+    height: 100%;
+    max-height: 350px;
+}
+
+.container p {
+    margin: 0px 5px 30px;
+    color: #fff;
+}
+
+.container .botao-trailer{
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #8B0000;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.container .botao-trailer:hover {
+    background-color: #FF0000;
+}
+
+.container .imagem-chars {
+    height: 100%;
+    max-height: 270px;
+}
+
+.rodape {
+    background: linear-gradient(to top, #000 , transparent);
+    max-width: 1440px;
+    margin: 30px auto 0px;
+    padding-left: 100px;
+}
+
+.rodape .rodape-logos{
+    height: 70px;
+    margin: 20px;
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fundo-video .video {
+    height: 100vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.modal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,0,0,0.3);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.conteudo-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.fechar-modal {
+    background-color: #FF0000;
+    color: #fff;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    
+    <title>Apex Legends</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/Apex Legends Resurrection Battle Pass Trailer.mp4">
+        </video>
+    </div>
+
+    <nav class="menu">
+        <div class="menu-login">
+            <img class="logo" src="src/img/apex-logo.png" onmouseover="this.src='./src/img/apex-logo-red.png'" onmouseout="this.src='./src/img/apex-logo.png'" alt="Logo Apex Legends">
+            <a class="login" href="https://signin.ea.com/p/juno/login?execution=e1820105597s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Finitref_replay%3Dfalse%26display%3DjunoWeb%252Flogin%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Flogin_check%26locale%3Dpt_BR%26client_id%3DEADOTCOM-WEB-SERVER" target="_blank">Conectar</a>
+            <a class="login" href="https://signin.ea.com/p/juno/create?execution=e1820105598s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Finitref_replay%3Dfalse%26display%3DjunoWeb%252Fcreate%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Flogin_check%26locale%3Dpt_BR%26client_id%3DEADOTCOM-WEB-SERVER" target="_blank">Cadastrar</a>
+        </div>
+        <ul>
+            <li><a href="https://www.ea.com/pt-br/games/apex-legends" target="_blank">Site oficial</a></li>
+            <li><a href="https://www.youtube.com/@playapex" target="_blank">Youtube</a></li>
+            <li><a href="https://store.steampowered.com/app/1172470/Apex_Legends/" target="_blank">Steam</a></li>
+            <li><a href="https://www.ea.com/pt-br/games/apex-legends/about/characters" target="_blank">Personagens</a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="conteudo">
+            <img class="imagem-apex" src="src/img/apex-titulo.png" alt="Titulo Apex legends" onmouseover="this.src='./src/img/apex-titulo-claro.png'" onmouseout="this.src='./src/img/apex-titulo.png'">
+            <p>Apex Legends™ se passa em um universo imersivo em que a história continua evoluindo, os mapas mudam e novas Lendas continuam entrando na luta. Deixe sua marca nos Jogos Apex com uma infinidade de uniformes distintos e junte-se à aventura!</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="imagem-chars" src="src/img/apex-legends-chars.png" alt="">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cEReUkZjjN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </header>
+    <footer class="rodape">
+        <img class="rodape-logos" src="src/img/logo-apex-rodape.png" alt="Logo Apex Legends">
+        <img class="rodape-logos" src="src/img/logo-global-rodape.png" alt="Logo Apex Legends Global">
+        <img class="rodape-logos" src="src/img/logo-respaw-rodape.png" alt="Logo Respaw">
+        <img class="rodape-logos" src="src/img/logo-ea-rodape.png" alt="Logo EA">
+    </footer>
+
+    <script src="src/js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+@media (max-width: 1100px) {
+    
+    .fundo-video {
+        display: none;
+    }
+    
+    .menu {
+        max-width: 800px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu ul a{
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    .menu .login {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    .container {
+        flex-wrap: wrap;      
+    }
+
+    .conteudo .imagem-apex {
+        display: flex;
+        margin-top: -100px
+    }
+
+    .imagem-chars {
+        margin-top: -100px;
+    }
+
+    .rodape {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        padding-left: 0px;          
+    }
+
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .menu  {
+        display: flex;
+        margin: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        gap: 10px;
+        border: none;
+    }
+
+    .menu-login {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 10px;
+    }
+    
+    .menu .login{
+        display: flex;
+        font-size: 26px;      
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu ul a {
+        font-size: 26px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-self: center;      
+    }
+
+    .conteudo .imagem-apex {
+        display: flex;
+        margin-top: -50px;
+        height: 300px;
+    }
+
+    .imagem-chars {
+        margin-top: -60px;
+        height: 100px;
+    }
+
+    .rodape {
+        margin-top: 250px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 197px;
+    }
+}
+
