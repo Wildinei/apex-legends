@@ -20,20 +20,16 @@
     }
 
     .container {
-        flex-wrap: wrap;      
+        flex-direction: column;
+        height: 100vh;
     }
 
     .conteudo .imagem-apex {
         display: flex;
-        margin-top: -100px
-    }
-
-    .imagem-chars {
-        margin-top: -100px;
     }
 
     .rodape {
-        margin-top: 200px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center; 
@@ -79,31 +75,25 @@
         font-size: 26px;
     }
 
-    .container {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-self: center;      
-    }
-
     .conteudo .imagem-apex {
         display: flex;
-        margin-top: -50px;
         height: 300px;
     }
 
-    .imagem-chars {
-        margin-top: -60px;
-        height: 100px;
+    .container .imagem-chars {
+        height: 200px;
     }
 
     .rodape {
-        margin-top: 250px;
+        margin-top: 10px;
     }
 
+    .rodape .rodape-logos{
+        height: 60px;
+        margin: 10px;
+    }
     iframe {
         width: 350px;
         height: 197px;
     }
 }
-
