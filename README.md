@@ -1,5 +1,5 @@
 <h1>apex-legends</h1>
-<h3>🎮 conteúdos relacionado ao jogo Apex Legends.🎮</h3> 
+<h3>🎮 conteúdo relacionado ao jogo Apex Legends.🎮</h3> 
 
 <p>Esse é meu primeiro projeto criado, foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
 
